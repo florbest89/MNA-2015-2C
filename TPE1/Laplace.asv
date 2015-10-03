@@ -1,0 +1,19 @@
+function determinant = Laplace(matrix, n)
+    
+    determinant = 0;
+    
+    %CASO BASE - Matriz de orden 2
+    if (n == 2)
+        determinant = det(matrix);
+        return;
+    end
+    
+    %PASO RECURSIVO - Calculo el adjunto y ejecuto laplace
+    for col = 1 : n
+        
+        firstElement = matrix(1,col);
+        [sign, testAdjunt] = Adjunt(matrix, col);
+                
+        determinant = determinant + firstElement * Laplace(tempAdjunt, n-1);
+    end
+end

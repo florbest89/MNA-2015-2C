@@ -1,4 +1,4 @@
-function [sign, out] = Adjunt(matrix,col)
+function out = Adjunt(matrix,col)
     
     %Asigno matrix a la salida
     out = matrix;
@@ -14,4 +14,5 @@ function [sign, out] = Adjunt(matrix,col)
     %Remuevo la columna col
     out(:,col) = [];
     
+    out = sign * out;
 end
