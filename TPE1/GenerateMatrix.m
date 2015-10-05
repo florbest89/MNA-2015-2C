@@ -12,7 +12,6 @@ function out = GenerateMatrix(n)
         end
     end
     
-    disp(matrix);
     out = matrix;
 
 end
