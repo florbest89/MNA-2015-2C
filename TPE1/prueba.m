@@ -1,5 +1,7 @@
 function [] = prueba(n)   
 
+    tic;
+
     %Genero la matriz del problema
     matrix = GenerateMatrix(n);
     matrizprueba = GenerateMatrix(n);
@@ -21,12 +23,16 @@ function [] = prueba(n)
     %Resuelvo el polinimio    
     eigenValues = vpasolve(result,lambda);
     
+    time = toc;
+    
     fprintf('The eigenvalues obtained are: \n');
     disp(eigenValues);
     
     fprintf('The eigenvalues obtained with matlab real function: \n2');
     postas = eig(matrizprueba);
     disp(postas);
+    
+    fprintf('<<Execution time to obtain eigen values of a %d x %d matrix is: %f seconds\n',n,n,time);
     
     %Verificación de Determinante
     realDet = det(matrix);

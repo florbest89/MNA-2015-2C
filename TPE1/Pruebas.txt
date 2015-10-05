@@ -1,0 +1,212 @@
+>> prueba(2)
+<< Executing with n = 2 >>
+The eigenvalues obtained are: 
+ 1.0 - 1.0*i
+ 1.0 + 1.0*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 1.0000i
+   1.0000 - 1.0000i
+
+<<Execution time to obtain eigen values of a 6 x 6 matrix is: 0.0400 seconds>>
+
+>> prueba(3)
+<< Executing with n = 3 >>
+The eigenvalues obtained are: 
+                                       1.0
+ 1.0 + 1.7320508075688772935274463415059*i
+ 1.0 - 1.7320508075688772935274463415059*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 1.7321i
+   1.0000 - 1.7321i
+   1.0000 + 0.0000i
+
+<<Execution time to obtain eigen values of a 6 x 6 matrix is: 0.0624 seconds>>
+
+>> prueba(4)
+<< Executing with n = 4 >>
+The eigenvalues obtained are: 
+ 1.0 + 2.4142135623730950488016887242097*i
+ 1.0 + 0.4142135623730950488016887242097*i
+ 1.0 - 0.4142135623730950488016887242097*i
+ 1.0 - 2.4142135623730950488016887242097*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 2.4142i
+   1.0000 - 2.4142i
+   1.0000 + 0.4142i
+   1.0000 - 0.4142i
+
+<<Execution time to obtain eigen values of a 6 x 6 matrix is: 0.1584 seconds>>
+
+>> prueba(5)
+<< Executing with n = 5 >>
+The eigenvalues obtained are: 
+                                        1.0
+ 1.0 + 0.72654252800536088589546675748062*i
+  1.0 + 3.0776835371752534025702905760369*i
+  1.0 - 3.0776835371752534025702905760369*i
+ 1.0 - 0.72654252800536088589546675748062*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 3.0777i
+   1.0000 - 3.0777i
+   1.0000 + 0.7265i
+   1.0000 - 0.7265i
+   1.0000 + 0.0000i
+
+<<Execution time to obtain eigen values of a 6 x 6 matrix is: 0.6695 seconds>>
+
+>> prueba(7)
+<< Executing with n = 7 >>
+The eigenvalues obtained are: 
+                                        1.0
+  1.0 + 4.3812862675348230724046890850327*i
+  1.0 + 1.2539603376627038375709109783365*i
+ 1.0 + 0.48157461880752864433216235305697*i
+ 1.0 - 0.48157461880752864433216235305697*i
+  1.0 - 1.2539603376627038375709109783365*i
+  1.0 - 4.3812862675348230724046890850327*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 4.3813i
+   1.0000 - 4.3813i
+   1.0000 + 1.2540i
+   1.0000 - 1.2540i
+   1.0000 + 0.4816i
+   1.0000 - 0.4816i
+   1.0000 + 0.0000i
+
+<<Execution time to obtain eigen values of a 6 x 6 matrix is: 27.4869 seconds>>
+
+>> prueba(6)
+<< Executing with n = 6 >>
+The eigenvalues obtained are: 
+                                1.0 - 1.0*i
+                                1.0 + 1.0*i
+ 1.0 + 0.26794919243112270647255365849413*i
+  1.0 + 3.7320508075688772935274463415059*i
+  1.0 - 3.7320508075688772935274463415059*i
+ 1.0 - 0.26794919243112270647255365849413*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 3.7321i
+   1.0000 - 3.7321i
+   1.0000 + 1.0000i
+   1.0000 - 1.0000i
+   1.0000 + 0.2679i
+   1.0000 - 0.2679i
+
+<<Execution time to obtain eigen values of a 6 x 6 matrix is: 3.871969 seconds>>
+
+>> prueba(3)
+<< Executing with n = 3 >>
+The eigenvalues obtained are: 
+                                       1.0
+ 1.0 + 1.7320508075688772935274463415059*i
+ 1.0 - 1.7320508075688772935274463415059*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 1.7321i
+   1.0000 - 1.7321i
+   1.0000 + 0.0000i
+
+<<Execution time to obtain eigen values of a 3 x 3 matrix is: 0.058656  seconds
+>> prueba(4)
+<< Executing with n = 4 >>
+The eigenvalues obtained are: 
+ 1.0 + 2.4142135623730950488016887242097*i
+ 1.0 + 0.4142135623730950488016887242097*i
+ 1.0 - 0.4142135623730950488016887242097*i
+ 1.0 - 2.4142135623730950488016887242097*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 2.4142i
+   1.0000 - 2.4142i
+   1.0000 + 0.4142i
+   1.0000 - 0.4142i
+
+<<Execution time to obtain eigen values of a 4 x 4 matrix is: 0.154369  seconds>>
+
+>> prueba(5)
+<< Executing with n = 5 >>
+The eigenvalues obtained are: 
+                                        1.0
+ 1.0 + 0.72654252800536088589546675748062*i
+  1.0 + 3.0776835371752534025702905760369*i
+  1.0 - 3.0776835371752534025702905760369*i
+ 1.0 - 0.72654252800536088589546675748062*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 3.0777i
+   1.0000 - 3.0777i
+   1.0000 + 0.7265i
+   1.0000 - 0.7265i
+   1.0000 + 0.0000i
+
+<<Execution time to obtain eigen values of a 5 x 5 matrix is: 0.682011 seconds>>
+
+>> prueba(6)
+<< Executing with n = 6 >>
+The eigenvalues obtained are: 
+                                1.0 - 1.0*i
+                                1.0 + 1.0*i
+ 1.0 + 0.26794919243112270647255365849413*i
+  1.0 + 3.7320508075688772935274463415059*i
+  1.0 - 3.7320508075688772935274463415059*i
+ 1.0 - 0.26794919243112270647255365849413*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 3.7321i
+   1.0000 - 3.7321i
+   1.0000 + 1.0000i
+   1.0000 - 1.0000i
+   1.0000 + 0.2679i
+   1.0000 - 0.2679i
+
+<<Execution time to obtain eigen values of a 6 x 6 matrix is: 3.875272 seconds>>
+>> prueba(7)
+<< Executing with n = 7 >>
+The eigenvalues obtained are: 
+                                        1.0
+  1.0 + 4.3812862675348230724046890850327*i
+  1.0 + 1.2539603376627038375709109783365*i
+ 1.0 + 0.48157461880752864433216235305697*i
+ 1.0 - 0.48157461880752864433216235305697*i
+  1.0 - 1.2539603376627038375709109783365*i
+  1.0 - 4.3812862675348230724046890850327*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 4.3813i
+   1.0000 - 4.3813i
+   1.0000 + 1.2540i
+   1.0000 - 1.2540i
+   1.0000 + 0.4816i
+   1.0000 - 0.4816i
+   1.0000 + 0.0000i
+
+<<Execution time to obtain eigen values of a 7 x 7 matrix is: 27.242055 seconds>>
+>> prueba(8)
+<< Executing with n = 8 >>
+The eigenvalues obtained are: 
+  1.0 + 5.0273394921258481045149750710641*i
+ 1.0 + 0.66817863791929891999775768652308*i
+  1.0 + 1.4966057626654890176011351349425*i
+ 1.0 + 0.19891236737965800691159762264468*i
+ 1.0 - 0.19891236737965800691159762264468*i
+  1.0 - 1.4966057626654890176011351349425*i
+ 1.0 - 0.66817863791929891999775768652308*i
+  1.0 - 5.0273394921258481045149750710641*i
+ 
+The eigenvalues obtained with matlab real function: 
+2   1.0000 + 5.0273i
+   1.0000 - 5.0273i
+   1.0000 + 1.4966i
+   1.0000 - 1.4966i
+   1.0000 + 0.6682i
+   1.0000 - 0.6682i
+   1.0000 + 0.1989i
+   1.0000 - 0.1989i
+
+<<Execution time to obtain eigen values of a 8 x 8 matrix is: 230.291448 seconds>>
