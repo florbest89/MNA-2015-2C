@@ -32,7 +32,7 @@ function [] = prueba(n)
     postas = eig(matrizprueba);
     disp(postas);
     
-    fprintf('<<Execution time to obtain eigen values of a %d x %d matrix is: %f seconds\n',n,n,time);
+    fprintf('<<Execution time to obtain eigen values of a %d x %d matrix is: %f seconds>>\n',n,n,time);
     
     %Verificación de Determinante
     realDet = det(matrix);
