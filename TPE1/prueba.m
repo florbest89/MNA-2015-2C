@@ -15,8 +15,8 @@ function [] = prueba(n)
     fprintf('<< Executing with n = %d >>\n', n);
     
     %Agregar lamba a la matriz (A - Lambda * I)
-    matrix = matrix - LambdaIdentity; 
-    
+    matrix = matrix - LambdaIdentity;
+       
     %Ejecuto el algoritmo de Laplace
     result = Laplace(matrix, n);
     
@@ -35,9 +35,8 @@ function [] = prueba(n)
     fprintf('<<Execution time to obtain eigen values of a %d x %d matrix is: %f seconds>>\n',n,n,time);
     
     %Verificación de Determinante
-    realDet = det(matrix);
+    %realDet = det(matrix);
     
     %fprintf('Real Det >> %d \n', realDet);
     %fprintf('Our Det >> %d \n', result);
-    
 end
