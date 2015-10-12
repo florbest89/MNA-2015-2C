@@ -16,25 +16,32 @@ function out = eigenValues(matrix)
         
         A = R * Q;
         
-        %Single Shift%
+        %Single shift%
         a = A(n-1,n-1);
         b = A(n-1,n);
         c = A(n,n-1);
         d = A(n,n);
         
-        %Double Shift%
+        %Double shift%
         f = A(n-2,n-2);
         i = A(n-1,n-2);
         
         if( abs(c) < error * ( abs(a) + abs(d) ))
             out = [out ;d];
-                        
+            
+            %A(n,:) = [];
+            %A(:,n) = [];
             A = A(1:n-1,1:n-1);
             n = n - 1;
             
         elseif ( abs(i) < error * ( abs(f) + abs(a) ))
             aux = lambdas(a,b,c,d);
             out = [out ; aux];
+            
+            %A(n,:) = [];
+            %A(:,n) = [];
+            %A(n-1,:) = [];
+            %A(:,n-1) = [];
             
             A = A(1:n-2,1:n-2);
             

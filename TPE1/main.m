@@ -1,4 +1,5 @@
 function out = main(n)
+
     %Genero la matriz del problema
     matrix = GenerateMatrix(n);
     
@@ -7,13 +8,13 @@ function out = main(n)
     eig1 = eigenValues(matrix);
     
     time = toc;
-    eigPOSTA = eig(matrix);
+    eigReal = eig(matrix);
     
-    disp('NUESTRO');
+    disp('Our Values');
     disp(sort(eig1));
     
-    disp('POSTA')
-    disp(sort(eigPOSTA));
+    disp('Real Values')
+    disp(sort(eigReal));
     
     disp(time);
     
