@@ -13,7 +13,7 @@ R = A; % Transformed matrix so far
     w(1) = 1;
     tau = -s*u1/normx;
     % -- R := HR, Q := QH
-    R(j:end,:) = R(j:end,:)-(tau*w)*(transpose(w)*R(j:end,:));
-    Q(:,j:end) = Q(:,j:end) - (Q(:,j:end)*w) * transpose(tau*w);
+    R(j:end,:) = R(j:end,:)-(tau*w)*(w’*R(j:end,:));
+    Q(:,j:end) = Q(:,j:end)-(Q(:,j:end)*w)*(tau*w)’;
     end
 end
