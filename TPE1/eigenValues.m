@@ -6,7 +6,7 @@ function out = eigenValues(matrix)
     
     tic;
     loops = 0;
-    error = 10 ^ (-6);
+    error = 10 ^ (-8);
     
     A = matrix;
     
@@ -51,13 +51,18 @@ function out = eigenValues(matrix)
         loops = loops + 1;
     end
     
-    a = A(1,1);
-    b = A(1,2);
-    c = A(2,1);
-    d = A(2,2);
+    if( n == 2)
+        a = A(1,1);
+        b = A(1,2);
+        c = A(2,1);
+        d = A(2,2);
     
-    aux = lambdas(a,b,c,d);
-    out = [out ; aux];
+        aux = lambdas(a,b,c,d);
+        out = [out ; aux];
+    elseif( n == 1)
+        out = [out ; A(1,1)];        
+    end    
+   
     
 end
     
@@ -68,6 +73,7 @@ function values = lambdas(a,b,c,d)
     
     p = [1 x1 x0];
     values = roots(p);
+    
 end
 
 

@@ -10,10 +10,10 @@ function out = main(n)
     eigPOSTA = eig(matrix);
     
     disp('NUESTRO');
-    disp(eig1);
+    disp(sort(eig1));
     
     disp('POSTA')
-    disp(eigPOSTA);
+    disp(sort(eigPOSTA));
     
     disp(time);
     
