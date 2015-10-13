@@ -6,7 +6,7 @@ function out = eigenValues(matrix)
     
     tic;
     loops = 0;
-    error = 10 ^ (-8);
+    error = 10 ^ (-7);
     
     A = matrix;
     
@@ -56,6 +56,7 @@ function out = eigenValues(matrix)
         out = [out ; A(1,1)];        
     end    
    
+    out;
     
 end
     

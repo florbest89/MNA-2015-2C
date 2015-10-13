@@ -16,6 +16,6 @@ function out = main(n)
     disp('Real Values')
     disp(sort(eigReal));
     
-    disp(time);
+    fprintf('<< Execution time: %f >>\n', time);
     
 end
